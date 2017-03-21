@@ -1,5 +1,5 @@
-data1 = "Data_1.txt"
-data2 = "Data_2.txt"
+data1 = "Data1.txt"
+data2 = "Data2.txt"
 
 def readData(data1):
 	x = []
@@ -7,3 +7,14 @@ def readData(data1):
 	    for line in data :
 		    x = line.split()
 	return x
+
+x = readData(data1)
+txt = []
+for i in x:
+	if i == 'I':
+		txt.append('*')
+	elif i == 'and' or i == 'The' or i == 'you':
+		txt.append('*'*3)
+	else: txt.append(i)
+txt = ' '.join(txt)
+print(txt)
