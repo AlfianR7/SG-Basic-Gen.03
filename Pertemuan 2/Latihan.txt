@@ -2,3 +2,9 @@ SOAL
 
 Buatlah tranpose matriks tanpa menggunakan library.
 
+<<<<<<< HEAD
+=======
+[[12,7],
+  [4 ,5],
+  [3 ,8]]
+>>>>>>> refs/remotes/ComputingTelU/master
